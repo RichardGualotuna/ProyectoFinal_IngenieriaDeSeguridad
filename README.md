@@ -1,17 +1,17 @@
  HEAD
 # Sistema de Facturación Electrónica con Firma Digital
 
-## 📋 Descripción
+##  Descripción
 
 Sistema completo de facturación electrónica para Ecuador que cumple con las normativas del SRI, implementando seguridad criptográfica robusta (RSA-2048, AES-256-GCM, SHA-256, Bcrypt).
 
-**✅ PROYECTO COMPLETAMENTE FUNCIONAL Y CORREGIDO**
+** PROYECTO COMPLETAMENTE FUNCIONAL Y CORREGIDO**
 
 Este proyecto fue desarrollado aplicando todas las lecciones aprendidas del proyecto principal, asegurando que TODAS las operaciones CRUD funcionen correctamente.
 
 ---
 
-## 🚀 Inicio Rápido
+##  Inicio Rápido
 
 ### Requisitos Previos
 - Python 3.11+
@@ -80,7 +80,7 @@ Frontend corriendo en: http://localhost:5173
 
 ---
 
-## 🔐 Credenciales por Defecto
+##  Credenciales por Defecto
 
 **Usuario:** admin  
 **Contraseña:** Admin123!  
@@ -88,55 +88,14 @@ Frontend corriendo en: http://localhost:5173
 
 ---
 
-## 📚 Documentación
+##  Documentación
 
 - [Backend README](Semana3_Backend/README.md) - API, endpoints, seguridad
 - [Frontend README](Semana4_Frontend/README.md) - Componentes, pruebas, troubleshooting
 
 ---
 
-## ✅ Correcciones Aplicadas
-
-### Problemas del Proyecto Principal Resueltos:
-
-#### 1. ❌ Usuarios no se listaban → ✅ SOLUCIONADO
-**Causa:** Estructura de respuesta inconsistente del backend  
-**Solución:** 
-- Backend siempre devuelve `{success: true, data: {users: []}}`
-- Frontend maneja correctamente arrays vacíos
-- Validación robusta de tipos de datos
-
-#### 2. ❌ No se podían crear usuarios → ✅ SOLUCIONADO
-**Causa:** Validación incorrecta de campos requeridos  
-**Solución:**
-- Validación explícita de todos los campos obligatorios
-- Mensajes de error claros y específicos
-- Formulario con todos los campos necesarios
-
-#### 3. ❌ No se podían editar usuarios → ✅ SOLUCIONADO
-**Causa:** Envío de campos no editables al backend  
-**Solución:**
-- No se envía `username` en actualización
-- Password opcional en edición
-- Actualización parcial de campos
-
-#### 4. ❌ No se podían eliminar usuarios → ✅ SOLUCIONADO
-**Causa:** Soft delete no implementado correctamente  
-**Solución:**
-- `AuthService.delete_user()` hace soft delete apropiado
-- Confirmación antes de eliminar
-- Mensaje de éxito/error claro
-
-#### 5. ❌ Respuestas inconsistentes → ✅ SOLUCIONADO
-**Causa:** Diferentes estructuras de respuesta  
-**Solución:**
-- TODAS las rutas devuelven `{success, message, data}`
-- Manejo consistente de errores
-- Documentación clara de respuestas
-
----
-
-## 🏗️ Arquitectura del Sistema
+##  Arquitectura del Sistema
 
 ### Backend (Flask)
 ```
@@ -182,7 +141,7 @@ Semana4_Frontend/
 
 ---
 
-## 🔒 Seguridad Implementada
+##  Seguridad Implementada
 
 ### Criptografía
 
@@ -215,7 +174,7 @@ Todos los eventos se registran en `audit_log`:
 
 ---
 
-## 📊 Base de Datos
+##  Base de Datos
 
 ### Tablas Principales
 
@@ -239,7 +198,7 @@ empresa (1) ──── (N) factura (N) ──── (1) cliente
 
 ---
 
-## 🧪 Guía de Pruebas Completa
+##  Guía de Pruebas Completa
 
 ### 1. Probar Backend (API)
 
@@ -291,7 +250,7 @@ curl -X POST http://localhost:5000/api/v1/users \
 
 ---
 
-## 🐛 Troubleshooting Común
+##  Troubleshooting Común
 
 ### Backend no inicia
 
@@ -324,7 +283,7 @@ CORS_ORIGINS=http://localhost:5173
 
 ---
 
-## 📈 Mejoras Futuras
+##  Mejoras Futuras
 
 - [ ] Módulo de facturas completo con XML y firma RSA
 - [ ] Generación de QR codes para facturas
@@ -336,7 +295,7 @@ CORS_ORIGINS=http://localhost:5173
 
 ---
 
-## 👥 Roles y Permisos
+##  Roles y Permisos
 
 | Rol | Usuarios | Clientes | Facturas | Auditoría |
 |-----|----------|----------|----------|-----------|
@@ -347,24 +306,24 @@ CORS_ORIGINS=http://localhost:5173
 
 ---
 
-## 📝 Licencia
+##  Licencia
 
 Este proyecto es parte de un trabajo académico para la materia de Seguridad en Aplicaciones Web.
 
 ---
 
-## ✨ Características Destacadas
+##  Características Destacadas
 
-- ✅ **100% Funcional** - Todas las operaciones CRUD probadas
-- ✅ **Seguridad Robusta** - Criptografía de nivel empresarial
-- ✅ **Código Limpio** - Bien documentado y organizado
-- ✅ **Manejo de Errores** - En todos los niveles
-- ✅ **Responsive** - Funciona en todos los dispositivos
-- ✅ **Auditoría Completa** - Registro de todas las operaciones
+-  **100% Funcional** - Todas las operaciones CRUD probadas
+-  **Seguridad Robusta** - Criptografía de nivel empresarial
+-  **Código Limpio** - Bien documentado y organizado
+-  **Manejo de Errores** - En todos los niveles
+-  **Responsive** - Funciona en todos los dispositivos
+-  **Auditoría Completa** - Registro de todas las operaciones
 
 ---
 
-## 📞 Soporte
+##  Soporte
 
 Para problemas o dudas:
 
@@ -375,7 +334,7 @@ Para problemas o dudas:
 
 ---
 
-**¡Sistema listo para usar! 🚀**
+** Sistema listo **
 # ProyectoFinal_IngenieriaDeSeguridad
 Proyecto final de la asignatura de ingeniería de seguridad. 
 
