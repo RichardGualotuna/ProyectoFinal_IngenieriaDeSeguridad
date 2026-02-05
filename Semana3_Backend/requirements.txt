@@ -1,0 +1,37 @@
+# ============================================================================
+# DEPENDENCIAS DEL PROYECTO - Sistema de Facturación Electrónica
+# Python 3.11+
+# ============================================================================
+
+# Framework Web
+Flask==3.0.0
+Flask-CORS==4.0.0
+Flask-JWT-Extended==4.5.3
+Flask-SQLAlchemy==3.1.1
+
+# Base de Datos
+psycopg2-binary==2.9.9
+SQLAlchemy==2.0.23
+
+# Criptografía
+cryptography==41.0.7
+bcrypt==4.1.2
+PyJWT==2.8.0
+
+# Generación de QR
+qrcode[pil]==7.4.2
+Pillow==10.1.0
+
+# Generación de XML y PDF
+lxml==5.0.0
+reportlab==4.0.7
+
+# Utilidades
+python-dotenv==1.0.0
+Werkzeug==3.0.1
+
+# Validación y Datos
+email-validator==2.1.0
+
+# Variables de Entorno
+python-decouple==3.8
