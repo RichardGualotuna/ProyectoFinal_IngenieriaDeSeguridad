@@ -5,9 +5,8 @@
 
 Sistema completo de facturación electrónica para Ecuador que cumple con las normativas del SRI, implementando seguridad criptográfica robusta (RSA-2048, AES-256-GCM, SHA-256, Bcrypt).
 
-** PROYECTO COMPLETAMENTE FUNCIONAL Y CORREGIDO**
 
-Este proyecto fue desarrollado aplicando todas las lecciones aprendidas del proyecto principal, asegurando que TODAS las operaciones CRUD funcionen correctamente.
+Este proyecto fue desarrollado aplicando todas las lecciones aprendidas, En la clase de Ingenieria de Seguridad. 
 
 ---
 
